@@ -22,3 +22,8 @@ ul {
 ul li:nth-child(odd) {
     background-color: gray;
 }
+
+a {
+    text-decoration: none;
+    
+}
