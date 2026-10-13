@@ -20,10 +20,15 @@ ul {
 }
 
 ul li:nth-child(odd) {
-    background-color: gray;
+    background-color: rgb(222, 164, 255);
 }
 
 a {
     text-decoration: none;
+    background-color: lightgrey;
     
+}
+
+a:hover,a:focus {
+    background-color: rgb(255, 202, 103);
 }
