@@ -4,5 +4,9 @@ body {
 }
 
 header, footer {
-    background-color: rgb(176, 128, 198);
+    background-color: rgb(159, 157, 157);
+}
+
+.site-title {
+    color: rgb(93, 40, 106)
 }
