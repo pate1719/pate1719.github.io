@@ -32,3 +32,7 @@ a {
 a:hover,a:focus {
     background-color: rgb(255, 202, 103);
 }
+
+#navigation-bar {
+    text-decoration: underline;
+}
