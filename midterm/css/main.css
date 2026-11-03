@@ -5,8 +5,8 @@
 body {
     background-color: rgb(169, 216, 206);
     font-family: sans-serif;
-    
-
+}   
+/* add space from outer edges of main */
 main {
     padding: 0 10px 0 10px;
 }
@@ -15,10 +15,6 @@ main {
     width: 800px;
     background-color: rgb(221, 248, 245);
     margin: 0 auto;
-}
-
-.h1 {
-    position: absolute;
 }
 
 .starfish-banner {
