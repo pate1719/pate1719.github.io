@@ -90,9 +90,13 @@ ul {
 }
 
 #message {
-    height: 100px;
+    height: 75px;
 }
 
+.visit {
+    border: none;
+    margin: 0;
+}
 
 
 
