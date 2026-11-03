@@ -85,9 +85,13 @@ ul {
     margin-bottom: 15px;
 }
 
+.form input {
+    width: 100%;
+}
 
-
-
+#message {
+    height: 100px;
+}
 
 
 
