@@ -35,8 +35,8 @@ main {
 .starfish-banner h1 {
     position: absolute;
     z-index: 1;
-    top: 50%;
-    left: 35%;
+    top: 45%;
+    left: 30%;
     text-align: center;
     color: white;
     font-size: 50px;
@@ -47,6 +47,7 @@ nav ul {
 }
 
 nav li {
+    
     display: inline-block;
     width: 250px;
     text-align: center;
@@ -74,6 +75,22 @@ nav li:last-child {
 ul {
     padding-left: 20px;
 }
+
+.contact-form {
+    border: 1px solid;
+    padding: 15px;
+}
+
+.form {
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
 
 footer {
     text-align: right;
