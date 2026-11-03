@@ -2,19 +2,23 @@
     box-sizing: border-box;
 }
 
-html {
-
-}
-
 body {
     background-color: rgb(169, 216, 206);
     font-family: sans-serif;
 }
 
+main {
+    padding: 0 10px 0 10px;
+}
+
 .wrapper {
     width: 800px;
-    background-color: rgb(244, 229, 203);
+    background-color: rgb(221, 248, 245);
     margin: 0 auto;
+}
+
+.h1 {
+    position: absolute;
 }
 
 .starfish-banner {
@@ -52,4 +56,10 @@ nav li:last-child {
  float: left;
  width: 250px;
  height: 250px;
+ margin: 0 20px 10px 10px;
+}
+
+footer {
+    text-align: right;
+    padding: 20px 20px 20px 20px;
 }
