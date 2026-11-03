@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-
+/* Change background and font within body */
 body {
     background-color: rgb(169, 216, 206);
     font-family: sans-serif;
@@ -12,7 +12,7 @@ main {
 }
 
 .wrapper {
-    width: 800px;
+    width: 1000px;
     background-color: rgb(221, 248, 245);
     margin: 0 auto;
 }
@@ -23,40 +23,57 @@ main {
 
 .starfish-banner {
     position: relative;
-    text-align: center;
-    color: white;
-    font-size: 24px;
+  
 }
 /**/
 #starfish-wide {
     position: relative;
     width: 100%;
     top: 0;
+    object-fit: cover;
+}
+
+.starfish-banner h1 {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 35%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
 }
 
 nav ul {
-    padding-left: 0;
-    list-style-type: none;
+    list-style: none;
 }
 
 nav li {
     display: inline-block;
-    width: 250px;
+    width: 300px;
     text-align: center;
     border-right: 1px solid;   
-    font-size: 1.5rem;
-   
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 nav li:last-child {
     border-right: none;
 }
 
+.life-head {
+    font-size: 2rem;
+}
+
 .life aside img {
- float: left;
- width: 250px;
- height: 250px;
- margin: 0 20px 10px 10px;
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 0 15px 0 0;
+}
+
+ul {
+    padding-left: 20px;
 }
 
 footer {
