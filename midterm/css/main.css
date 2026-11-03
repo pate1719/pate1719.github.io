@@ -5,14 +5,14 @@
 body {
     background-color: rgb(169, 216, 206);
     font-family: sans-serif;
-}
+    
 
 main {
     padding: 0 10px 0 10px;
 }
 
 .wrapper {
-    width: 1000px;
+    width: 800px;
     background-color: rgb(221, 248, 245);
     margin: 0 auto;
 }
@@ -23,9 +23,8 @@ main {
 
 .starfish-banner {
     position: relative;
-  
 }
-/**/
+
 #starfish-wide {
     position: relative;
     width: 100%;
@@ -49,7 +48,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    width: 300px;
+    width: 250px;
     text-align: center;
     border-right: 1px solid;   
     font-size: 25px;
