@@ -95,10 +95,21 @@ ul {
 
 .visit {
     border: none;
-    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
 }
 
+.would-you {
+    margin-bottom: 15px;
+}
 
+.button {
+    padding: 10px 15px;
+    border: 1px solid;
+    background: transparent;
+    text-transform: uppercase;
+    font-size: .5rem;
+}
 
 footer {
     text-align: right;
