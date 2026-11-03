@@ -47,3 +47,9 @@ nav li {
 nav li:last-child {
     border-right: none;
 }
+
+.life aside img {
+ float: left;
+ width: 250px;
+ height: 250px;
+}
