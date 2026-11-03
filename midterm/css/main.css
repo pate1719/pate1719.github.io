@@ -1,33 +1,34 @@
+/* add border box sizing to all */
 * {
     box-sizing: border-box;
 }
-/* Change background and font within body */
+/* Change background and font for whole page */
 body {
     background-color: rgb(169, 216, 206);
     font-family: sans-serif;
 }   
 /* add space from outer edges of main */
 main {
-    padding: 0 10px 0 10px;
+    padding: 10px;
 }
-
+/* set wrapper style + centering */
 .wrapper {
     width: 800px;
     background-color: rgb(221, 248, 245);
     margin: 0 auto;
 }
-
+/* set banner as ref for inside elements */
 .starfish-banner {
     position: relative;
 }
-
+/* style banner img */
 #starfish-wide {
     position: relative;
     width: 100%;
     top: 0;
     object-fit: cover;
 }
-
+/* position h1 on banner img */
 .starfish-banner h1 {
     position: absolute;
     z-index: 1;
@@ -37,12 +38,12 @@ main {
     color: white;
     font-size: 50px;
 }
-
+/* remove bullets + margins from nav */
 nav ul {
     list-style: none;
     margin: 0;
 }
-
+/* position nav beside eachother */
 nav li {
     
     display: inline-block;
@@ -53,53 +54,53 @@ nav li {
     font-weight: bold;
     text-transform: uppercase;
 }
-
+/* remove far left border */
 nav li:last-child {
     border-right: none;
 }
-
+/* set life font size */
 .life-head {
     font-size: 2rem;
 }
-
+/* wrap text around img positioned to left */
 .life aside img {
     float: left;
     width: 250px;
     height: 250px;
     margin: 0 15px 0 0;
 }
-
+/* add left space for fact list */
 ul {
-    padding-left: 20px;
+    padding-left: 15px;
 }
-
+/* add border to contact section */
 .contact-form {
     border: 1px solid;
     padding: 15px;
 }
-
+/* add space under forms*/
 .form {
     margin-bottom: 15px;
 }
-
+/* fully fill form boxes to their container */
 .form input {
     width: 100%;
 }
-
+/* make only message form field larger */
 #message {
     height: 75px;
 }
-
+/* remove fieldset border and add space beneath */
 .visit {
     border: none;
     padding: 0;
     margin-bottom: 15px;
 }
-
+/* add space under question */
 .would-you {
     margin-bottom: 15px;
 }
-
+/* style button to be larger and without fill */
 .button {
     padding: 10px 15px;
     border: 1px solid;
@@ -107,8 +108,8 @@ ul {
     text-transform: uppercase;
     font-size: .5rem;
 }
-
+/* align footer to right and add space around it */
 footer {
     text-align: right;
-    padding: 20px 20px 20px 20px;
+    padding: 0 15px 15px 0;
 }
